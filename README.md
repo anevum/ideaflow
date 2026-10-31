@@ -6,6 +6,8 @@ IdeaFlow is an idea-capture and occasional meeting-workflow project. It is being
 
 **Reconciliation pending.** An earlier intake/analyzer/operations code archive and a separate meeting-presenter release have been identified. The older intake implementation predates the latest workflow decision and must not be presumed to match production. No verified standalone source has been imported here yet.
 
+[Draft recovery PR #1](https://github.com/anevum/ideaflow/pull/1) preserves a compiled analyzer reference and synthetic tests. It is not the complete editable application or a deployment candidate; the other services and recovery checks remain outstanding.
+
 ## Operating requirements
 
 - Capture is on demand. Meeting transcription retrieval and idea analysis require an explicit manual request; do not restore automatic daily analysis or summary tasks.
